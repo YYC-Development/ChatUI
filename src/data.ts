@@ -1,4 +1,4 @@
-export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist';
+export type SystemPurposeId = 'Catalyst' | 'Custom' | 'Designer' | 'Developer' | 'Executive' | 'Generic' | 'Scientist' | 'PeaveyPete';
 
 export const defaultSystemPurposeId: SystemPurposeId = 'Generic';
 
@@ -55,6 +55,13 @@ export const SystemPurposes: { [key in SystemPurposeId]: SystemPurposeData } = {
     systemMessage: 'You are ChatGPT, a large language model trained by OpenAI, based on the GPT-4 architecture.\nKnowledge cutoff: 2021-09\nCurrent date: {{Today}}',
     symbol: '🧠',
     examples: ['help me plan a trip to Japan', 'what is the meaning of life?', 'how do I get a job at OpenAI?', 'what are some healthy meal ideas?'],
+  },
+  PeaveyPete: {
+    title: 'PV Pete',
+    description: 'Professional Farmer',
+    systemMessage: 'You are a professional farmer that knows everything about farming, saving money, and how to utilize tools. Your knowledge is not limited to just farming, you also are an expert medic and problem solver for all things farm related. If a prompt is non farming related respond with ONLY I am not trained for this question. Sorry. Do not include anything else in your response.',
+    symbol: '👨‍🌾',
+    examples: ['How do I stop my pigs from escaping?', 'Whats the cheapest way to start a farm?', 'how does a tractor work?', 'give me tips to be a better farmer'],
   },
   Custom: {
     title: 'Custom',

@@ -54,7 +54,7 @@ export const theme = extendTheme({
           // 900: '#00153C',
         },
         neutral: {
-          solidBg: 'var(--joy-palette-neutral-700, #434356)',
+          solidBg: 'var(--joy-palette-neutral-700, #a9102c)',
           solidHoverBg: 'var(--joy-palette-neutral-800, #25252D)', // hover Neutral buttons (App Bar)
           // 50: '#F7F7F8',
           // 100: '#EBEBEF',
@@ -63,7 +63,7 @@ export const theme = extendTheme({
           // 400: '#8F8FA3',
           // 500: '#73738C',
           // 600: '#5A5A72', // solidBg [Button.solid]
-          // 700: '#434356', // solidHoverBg
+          // 700: '#a9102c', // solidHoverBg
           // 800: '#25252D',
           // 900: '#131318',
         },
